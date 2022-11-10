@@ -2,7 +2,7 @@
 !if %variable_exists("RELATIVE_INCLUDE")
   !include %get_variable_value("RELATIVE_INCLUDE")/C4_Component.puml
 !else
-  !include https://gitlab.tcsbank.ru/cardsmobile/docs-as-code/-/raw/master/puml/C4/C4_Component.puml
+  !include https://raw.githubusercontent.com/andwr/docs-as-code/main/plantuml/C4/C4_Component.puml
 !endif
 
 ' Scope: Interactions in an enterprise, software system or container.

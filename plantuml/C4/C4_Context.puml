@@ -2,7 +2,7 @@
 !if %variable_exists("RELATIVE_INCLUDE")
   !include %get_variable_value("RELATIVE_INCLUDE")/C4.puml
 !else
-  !include https://gitlab.tcsbank.ru/cardsmobile/docs-as-code/-/raw/master/puml/C4/C4.puml
+  !include https://raw.githubusercontent.com/andwr/docs-as-code/main/plantuml/C4/C4.puml
 !endif
 
 ' Scope: A single software system.
